@@ -111,9 +111,6 @@ function menuFunction() {
 
 # Check the files and run the functions
 if [ ! -d $app_installation_directory ]; then
-	echo "Welcome to Discord installer!"
-	sleep 1
-	echo ""
 	installFunction
 	echo ""
 	echo "Discord installation completed successfully!"
